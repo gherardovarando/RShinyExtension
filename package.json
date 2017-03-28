@@ -1,0 +1,27 @@
+{
+  "name": "rshinyextension",
+  "version": "0.0.1",
+  "description": "Rshiny Extension for Atlas app",
+  "main": "RShinyExtension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjuez/RShinyExtension.git"
+  },
+  "keywords": [
+    "R",
+    "Shiny",
+    "RShiny",
+    "Atlas",
+    "cig",
+    "hbp"
+  ],
+  "author": "Mario Juez, Gherardo Varando",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mjuez/RShinyExtension/issues"
+  },
+  "homepage": "https://github.com/mjuez/RShinyExtension#readme"
+}
