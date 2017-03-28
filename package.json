@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/mjuez/RShinyExtension/issues"
   },
-  "homepage": "https://github.com/mjuez/RShinyExtension#readme"
+  "homepage": "https://github.com/mjuez/RShinyExtension#readme",
+  "dependencies": {
+    "electron": "^1.6.2",
+    "electrongui": "github:gherardovarando/electrongui"
+  }
 }
