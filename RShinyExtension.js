@@ -49,7 +49,6 @@ class RShinyExtension extends GuiExtension {
     }
 
     activate() {
-        this.appendMenu();
         super.activate();
         this.webview = new ToggleElement(document.createElement('webview'));
         this.webview.element.classList.add('padded');
@@ -57,15 +56,14 @@ class RShinyExtension extends GuiExtension {
         this.webview.element.style.width = '100%';
         this.webview.element.style.height = '100%';
         this.appendChild(this.webview);
+        this.appendMenu();
     }
 
     deactivate() {
         util.empty(this.element, this.element.firstChild);
         this.removeMenu();
         super.deactivate();
-
     }
-
 
     runScript(path) {
         if (this.proc instanceof ChildProcess) this.proc.kill;
